@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    width: 980px;
+    margin: auto;
+}
+
+.logo {
+    height: 200px;
+    background-color: white;
+    text-align: center;
+}
+
+nav {
+    height: 40px;
+    background-color: blue;
+    position: relative;
+}
+
+nav>ul>li {
+    list-style: none;
+    display: inline-block;
+    line-height: 35px;
+    padding-left: 30px;
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(253, 177, 62);
+    text-decoration: underline;
+}
+
+nav ul li a:hover>.supmenu {
+    display: block;
+}
+
+.supmenu>li {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(39, 25, 241);
+    list-style: none;
+    width: 150px;
+    position: absolute;
+    display: none;
+}
+
+.supmenu>li>a {
+    line-height: 40px;
+    border-bottom: 1px dotted orange;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 25px;
+    color: orange;
+    display: block;
+}
+
+.supmenu>li>a:hover ul {
+    color: orange;
+    font-weight: bold;
+    display: block;
+}
+
+.banner {
+    height: 400px;
+}
+
+.content {
+    height: 985px;
+    background-color: white;
+}
+
+footer {
+    height: 50px;
+    background-color: darkblue;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+    font-size: 20px;
+    line-height: 5px;
+}
+
+.text {
+    width: 230px;
+    height: 20px;
+    border: none;
+    background-color: white;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.timkiem {
+    width: 90px;
+    height: 22px;
+    background-color: red;
+    border: 0.5px solid white;
+    color: white;
+}
+
+form {
+    text-align: right;
+    margin: 35px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.khuyenmai1 {
+    width: 980px;
+    height: 65px;
+    line-height: 65px;
+}
+
+.khuyenmai1 p {
+    color: darkslateblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sanpham {
+    width: 315px;
+    height: 415px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.sanpham>.ten {
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sanpham img {
+    padding-top: 10px;
+}
+
+.giamoi {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    position: absolute;
+    right: -15px;
+    top: -35px;
+}

@@ -1,0 +1,29 @@
+.col1 {
+    width: 70px;
+}
+
+.col2 {
+    width: 150px;
+}
+
+.col3 {
+    width: 100px;
+}
+
+.col4 {
+    width: 100px;
+}
+
+.col5 {
+    width: 70px;
+}
+
+table {
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+tr:first-child {
+    background-color: aqua;
+    color: gray;
+}
